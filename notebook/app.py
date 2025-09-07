@@ -1,10 +1,9 @@
 import pandas as pd
 import plotly_express as px
 import streamlit as st
-import os
-print(os.listdir("."))
-"""
-data_vehicle = pd.read_csv("data/vehicles_us.csv")
+
+
+data_vehicle = pd.read_csv("notebook/vehicles_us.csv")
 # leer los datos
 
 
@@ -65,4 +64,3 @@ if show_chart:  # si la casilla de verificación está seleccionada
     st.write('Vehicles for sales')
 
     data_vehicle  # muestra los autos en venta
-"""
